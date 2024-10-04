@@ -1,0 +1,154 @@
+*, ::before, ::after{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #1E192C;
+}
+
+.page-header{
+  width: 100%;
+  height: 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #151515;
+  color: #23DD7A;
+}
+
+.container{
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 0.75rem;
+  column-gap: 0.75rem;
+  justify-content: center;
+}
+
+.form-article {
+  max-width: 20rem;
+  border: 0.125rem solid #565656;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  background-color: #EEEEEE;
+  color: #3B4651;
+  h1 {
+      text-align: center;
+      margin-bottom: 0.5rem;
+  }
+
+  main{
+      text-align: justify;
+      margin-bottom: 0.5rem;
+  }
+
+  .form-article-footer {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .form-article-footer > * {
+      flex: 1;
+  }
+
+  .form-article-date {
+      font-weight: 700;
+      font-size: 0.875rem;
+      text-align: start;
+      color:  #1E192C;
+  }
+
+  .form-article-link {
+      font-weight: 700;
+      font-size: 0.875rem;
+      text-align: end;
+      a {
+          color: #1E192C;
+          z-index: 1;
+          animation-duration: 0.6ms;
+          &:hover {
+              color: #23DD7A;
+          }
+      }
+  }
+}
+
+.form-detail {
+  max-width: 40rem;
+  border: 0.125rem solid #565656;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background-color: #EEEEEE;
+  color: #3B4651;
+  h1 {
+      text-align: center;
+      margin-bottom: 0.5rem;
+  }
+
+  main{
+      text-align: justify;
+      margin-bottom: 0.5rem;
+  }
+
+  .form-detail-footer {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+  }
+
+  .form-detail-footer > * {
+      flex: 1;
+  }
+
+  .form-detail-date {
+      font-weight: 700;
+      font-size: 0.875rem;
+      text-align: start;
+      color:  #1E192C;
+  }
+
+  .form-detail-link {
+      font-weight: 700;
+      font-size: 0.875rem;
+      text-align: end;
+      a {
+          color: #1E192C;
+          z-index: 1;
+          animation-duration: 0.6ms;
+          &:hover {
+              color: #23DD7A;
+          }
+      }
+  }
+}
+
+.no-data {
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #EEEEEE;
+    color: #151515;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        color: #FFFFFF;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
