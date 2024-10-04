@@ -1,5 +1,22 @@
 # React + TypeScript + Vite
 
+## Proposta do projeto
+* Criar um blog pessoal
+* Navegar entre a tela de consulta e os detalhes de cada artigo do blog.
+
+## Abaixo, as instruções iniciais do projeto:
+* Crie um fork do projeto
+* Edite o arquivo settings.ts e informe suas crdenciais de conexão com o supabase.
+* No seu projeto no supabase, selecione o editor sql, e execute os scripts initial e data, que encontram-se no diretório migrations. Esta ação é necessária para a criação da tabela e 
+  popular com os dados de teste.
+* Execute o projeto
+
+## Pontos a melhorar
+* Criar um componente para ser utilizado como barra de progbresso.
+* Adicionar a biblioteca **tailwindcss**, para melhoria do layout. 
+
+## Instruções originais ao criar um novo projeto utilizando o framework Vite.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
